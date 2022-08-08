@@ -11,12 +11,14 @@ function App() {
     <div className="App">
       <Button
         onClick={onClick}
-        disabled
+        // disabled
       >Normal Button</Button>
+
+      <br/>
 
       <Button.WithIcon
         onClick={onClick}
-        disabled
+        // disabled
         feature={{
           icon: 'test-icon',
           label: 'test-label'
